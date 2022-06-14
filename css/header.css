@@ -222,3 +222,39 @@
   background-color:white;
 }
 
+/* LOADER */
+
+.loader{
+  position : absolute;
+  top : 50%;
+  left : 45%;
+  --r1 : 154%;
+  --r2 : 68.5%;
+  width : 150px;
+  height : 150px;
+  border-radius: 50%;
+  background:
+      radial-gradient(var(--r1) var(--r2) at top, white 79.5%, #009353 80%),
+      radial-gradient(var(--r1) var(--r2) at bottom, #009353 79.5%, white 80%),
+      radial-gradient(var(--r1) var(--r2) at top, white 79.5%, #009353 80%),
+      #ccc;
+  background-size: 50.5% 220%;
+  background-position: -100% 0%, 0% 0%, 100% 0%;
+  background-repeat: no-repeat;
+  animation : progress 2s infinite linear;
+
+
+}
+
+
+@keyframes progress{
+  33%{
+    background-position: 0% 33%, 100% 33%, 200% 33%
+  }
+  66%{
+    background-position: -100% 66%, 0% 66%, 100% 66%
+  }
+  100%{
+    background-position: 0% 100%, 100% 100%, 200% 100%
+  }
+}

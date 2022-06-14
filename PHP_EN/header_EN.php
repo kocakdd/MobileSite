@@ -4,9 +4,29 @@
   <!-- CSS link -->
 
   <link rel="stylesheet" href="../css/header.css">
+
+  <!-- Font links -->
   <link rel="stylesheet" href="https://use.typekit.net/hmw2slg.css">
+  <link rel="stylesheet" href="https://fontsgeek.com/yu-gothic-font">
 
+  <!-- Loader -->
 
+  <div id="loader" class="loader"></div>
+  <script>
+  document.onreadystatechange = function() 
+  {
+    if (document.readyState != "complete") 
+    {
+      document.querySelector("body").style.visibility = "hidden";
+      document.querySelector("#loader").style.visibility = "visible";
+    } 
+    else 
+    {
+      document.querySelector("#loader").style.display = "none";
+      document.querySelector("body").style.visibility = "visible";
+    }
+  };
+  </script>
 <nav id="navbar">
       <!-- Create three divs to represent the three-line dropdown menu bar -->
       <input type="checkbox" id="active">
