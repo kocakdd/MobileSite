@@ -1,0 +1,65 @@
+
+*{
+  font-family:yu-gothic, sofia-pro, sans-serif;
+}
+
+ /* My text*/
+ .body{
+  position: absolute;
+  width: 100%;
+  height : 100%;
+  overflow: auto;
+
+ }
+ .block{
+  height: auto;
+  position: relative;
+  margin-top : 3%;
+  background-image:url("../images/Backgroundcubes.png");
+  background-repeat:no-repeat;
+  background-position: 100% 10%;
+  background-size: 60%;
+ }
+
+ .label1{
+   position: relative;
+   font-size :280%;
+   height:50px;
+   font-weight: bold;
+   font-family:  sofia-pro, sans-serif;
+   margin-left : 10.3%;
+   margin-right : 10.3%;
+   margin-bottom: 60px;
+ }
+ .label2{
+   position: relative;
+   font-size : 220%;
+   height:60px;
+   font-family: yu-gothic, sofia-pro, sans-serif;
+   margin-left : 10.3%;
+   margin-right : 10.3%;
+   line-height: 100%;
+   top:60px;
+ }
+ .content{
+  position: relative;
+  font-size : 170%;
+  height: 50px;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  margin-left : 10.3%;
+  margin-right : 10.3%;
+  line-height: 100%;
+  top:40px;
+ }
+ .link{
+  position: relative;
+  font-size : 170%;
+  height: 50px;
+  color: #009353;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  margin-left : 10.3%;
+  margin-right : 10.3%;
+  line-height: 100%;
+  top:40px;
+ }
+ 

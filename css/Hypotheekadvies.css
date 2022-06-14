@@ -1,0 +1,126 @@
+/* Couleur vert HEX: #009353, vert foncé HEX: #006D3E, blue HEX: #4AE6FF, black HEX: #202020, grenn light HEX: #F8FFF9 and white
+Police Sofia Pro & Yu Gothic */
+
+/* Mobile device */
+
+
+html {
+    height:100%;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ 
+ body{
+   margin:0;
+   padding:0;
+   /*background-image: url("Cube.svg");*/
+   background-size: 60%;
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-position:115% 45% ;
+ }
+ 
+ 
+ 
+ /*advices*/
+/* Desk image */
+.desk-image{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  opacity : 0.7;
+  z-index: -1;
+  }
+  /* My text*/
+  
+  .first-text-block{
+  position: absolute;
+  height: 30%;
+  background-color : white;
+  top : 35%;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+  }
+  .title{
+  position: absolute;
+  font-weight: bold;
+  top : -130px;
+  color : white;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  font-size : 900%;
+  } 
+  .title1{
+  position: relative;
+  font-size :280%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+  margin-top : 8.1%;
+  margin-left : 8.1%;
+  }
+  .title2{
+  position: relative;
+  font-size : 270%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+  margin-left : 8.1%;
+  color: #009353;
+  }
+  
+  .text1{
+  position: relative;
+  text-align: justify;
+  font-size : 200%;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  margin: 8.1%;
+  color: black;
+  }
+  
+  /* Step images*/
+  .step1-image{
+    position: relative;
+    margin-left:8.4%;
+    margin-right:8.4%;
+    margin-top:120%;
+    height: 42.2%;
+    width: 83.2%;
+  
+    }
+    .step-image{
+      position: relative;
+      margin-left:8.4%;
+      margin-right:8.4%;
+      margin-top:5.9%;
+      height: 42.2%;
+      width: 83.2%;
+    
+      }
+  
+  .step{
+    margin-left:8.6%;
+    margin-right:8.6%;
+  }
+  
+  .step-title{
+    position: relative;
+    font-size :280%;
+    font-weight: bold;
+    font-family: sofia-pro, sans-serif;
+    margin-top : 3.3%;
+  }
+  .step-body{
+    position: relative;
+    font-size : 200%;
+    text-align:justify;
+    font-family: yu-gothic, sofia-pro, sans-serif;
+    margin-top : 2.9%;
+    color: black;
+  }
+  
+
+
+
+
+

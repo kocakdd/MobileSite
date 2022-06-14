@@ -1,0 +1,44 @@
+ footer {
+  position:relative;
+  background: #009353;
+  text-align: center; 
+  width:100%;
+  height:auto;  
+  font-family: yu-gothic; 
+  margin-bottom:0px;
+  margin-top:auto;
+ }
+
+ footer p{
+  font-family: yu-gothic;
+  font-size: 35px ; 
+ }
+
+ footer .text_footer{
+  font-size: 35px ; 
+  line-height: 130%;
+  margin-top: 220%;
+  text-decoration: none;
+  color:white;
+ }
+
+ footer h4{
+  color:white;
+  margin-top: 10%;
+  line-height: 80%;
+  font-family: sofia-pro;
+  font-size: 200% ;
+ }
+
+footer .logo1{
+  width: 5%;
+  height: 5%;
+  margin-right: 4%;
+  line-height: 50%;
+}
+footer .logo2{
+   width: 5%;
+  height: 5%;
+  margin-right: 4%;
+  line-height: 50%;
+}

@@ -1,0 +1,346 @@
+
+html,body {
+    height:100%;
+ }
+
+*{
+  box-sizing: border-box;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+}
+
+ 
+
+
+ /* Body */
+
+ /* Desk image */
+.desk-image{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  opacity : 0.7;
+  z-index: -1;
+}
+
+ /* My text*/
+
+.first-text-block{
+  position: relative;
+  height: 600px;
+  background-color : white;
+  top : -20%;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+}
+.title{
+  position: absolute;
+  font-weight: bold;
+  top : -150px;
+  color : white;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  font-size : 900%;
+} 
+.title1{
+ position: relative;
+ font-size :280%;
+ font-weight: bold;
+ font-family: sofia-pro, sans-serif;
+ margin-left : 8.1%;
+ padding-top: 8.1%;
+}
+.title2{
+ position: relative;
+ font-size : 230%;
+ font-weight: bold;
+ font-family: sofia-pro, sans-serif;
+ margin-top : 4.1%;
+ margin-left : 8.1%;
+ color: #009353;
+}
+
+.text1{
+ position: relative;
+ text-align: justify;
+ font-size : 200%;
+ font-family: yu-gothic,  sans-serif;
+ margin: 8.1%;
+ color: black;
+}
+ 
+ 
+ /* Button */
+.center {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  margin-left:65px; 
+  padding-top : -2%;
+  position: relative;
+  background-color: none;
+}
+
+.button {
+ position: relative;
+ align-items: center;
+ background-color: #009353;
+ border: 2px solid #009353;
+ color: white;
+ cursor: pointer;
+ display: inline-block;
+ fill: #009353;
+
+ font-size: 200%;
+ height: 100%;
+ width: 90%;
+
+ justify-content: center;
+
+ padding: 0% 8%;
+ text-align: center;
+
+ transition: all .3s;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+}
+ 
+.button:focus {
+   color: #006D3E;
+}
+ 
+ .button:hover {
+   border-color: #006D3E;
+   color:#006D3E;
+   fill: #006D3E;
+ }
+ 
+ .button:active {
+   border-color: #006D3E;
+   color: #006D3E;
+   fill: #006D3E;
+ }
+
+/* Diensten */
+.second-text-block{
+  position : relative;
+  height:500px;
+  top:  0px;
+}
+.second-text-block h2{
+  position: relative;
+  margin-left: 8.6%;
+  top:0;
+  font-size :280%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+}
+.second-text-block p{
+  position: relative;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+  font-size :200%;
+  font-family: yu-gothic, sans-serif;
+}
+
+/* 2nd Opinion */
+
+.ndOpinion{
+  top : 0px;
+  height: 700px;
+  width :82.8%;
+  position: relative;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+  background-color : white;
+  text-align: center;
+  -moz-box-shadow: 10px 10px 8px #009353;
+  -webkit-box-shadow: 10px 10px 8px #009353;
+  box-shadow: 10px 10px 8px #009353;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right:100px;
+  padding-bottom: 150px;
+  
+}
+.ndOpinion h2{
+  top: 20%;
+  font-size :280%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+}
+
+.ndOpinion p{
+  font-size :200%;
+  font-family: sofia-pro, sans-serif;
+  color: #009353;
+
+}
+
+
+/*Hypotheekadvies*/
+
+.Hypotheekadvies{
+  top : 150px;
+  height: 700px;
+  width :82.8%;
+  position: relative;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+  background-color : white;
+  text-align: center;
+  -moz-box-shadow: 10px 10px 8px #009353;
+  -webkit-box-shadow: 10px 10px 8px #009353;
+  box-shadow: 10px 10px 8px #009353;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right:100px;
+  padding-bottom: 150px;
+}
+.Hypotheekadvies h2{
+  top: 20%;
+  font-size :280%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+}
+
+.Hypotheekadvies p{
+  font-size :200%;
+  font-family: sofia-pro, sans-serif;
+  color: #009353;
+}
+
+
+/*Hypotheekready*/
+
+.Hypotheekready{
+  top : 210px;
+  height: 700px;
+  width :82.8%;
+  position: relative;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+  background-color : white;
+  text-align: center;
+  -moz-box-shadow: 10px 10px 8px #009353;
+  -webkit-box-shadow: 10px 10px 8px #009353;
+  box-shadow: 10px 10px 8px #009353;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right:100px;
+  padding-bottom: 150px;
+}
+.Hypotheekready h2{
+  top: 20%;
+  font-size :280%;
+  font-weight: bold;
+  font-family:  sofia-pro, sans-serif;
+}
+
+.Hypotheekready p{
+  font-size :200%;
+  font-family: sofia-pro, sans-serif;
+  color: #009353;
+}
+
+
+/* Slider */
+
+.theswip{
+  position: relative;
+  top : 15%;
+  height: 1050px;
+}
+.swiper-slider {
+  position: relative;
+  height : 1050px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position : relative;
+}
+
+.swiper-slide {
+  text-align: left;
+  background: #F8FFF9;
+}
+
+.frame-content{
+  position:relative;
+  height:1050px;
+}
+
+.frame-content h2{
+  font-size :280%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+  margin-left: 8.6%;
+  margin-top: 9%;
+  white-space: nowrap;
+
+}
+.frame-content p{
+  font-size :200%;
+  font-family: sofia-pro, sans-serif;
+  color: black;
+  margin-left: 8.6%;
+  margin-top: 5%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.triangle-image{
+  float:right;
+  height : 1050px;
+  shape-outside: polygon(90% 0%, 90% 95%, 10% 95%);
+}
+.swiper-pagination .swiper-pagination-bullet{
+  width: 30px; /*size of the bullets*/
+  height: 30px; /*size of the bullets*/
+  background: #009353;
+  text-align: center;
+  opacity: 1;
+  margin: 30px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+  background: white;
+  border: 8px solid #009353;
+}
+
+/*Overheidsinstellingen*/
+
+.final_block{
+  position:relative;
+  top : 20%;
+  width: 82.8%;
+  margin-left :8.6%;
+  margin-right :8.6%;
+  height:1750px ;
+}
+
+.final_block h2{
+  top:0px;
+  position: relative;
+  font-size :280%;
+  font-weight: bold;
+  font-family: sofia-pro, sans-serif;
+}
+.mask-image{
+  position: relative;
+  float:left;
+  margin-top : 6%;
+}
+.mask-image2{
+  position : relative;
+  float:  right;
+  margin-top : 6%;
+}
+
