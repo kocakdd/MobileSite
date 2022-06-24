@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php require('sUp_EN.php');?>
 <!DOCTYPE html>
 <html lang="NL">

@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php require('../Action/pwd_wijzig.php');?>
 <!DOCTYPE html>
 <html lang="EN">
